@@ -5,12 +5,12 @@ fetch('https://restcountries.com/v2/all')
 
             var y = document.createElement('li')
             
-            var content = `<div class="card" style="width:500px" >
+            var content = `<div class="card" style="width:400px" >
             <img class="card-img-top" src="XXX" alt="Card image">
             <div class="card-body">
               <h4 class="card-title">YYY</h4>
               <p class="card-text">ZZZ</p>
-              <a href="#" class="btn btn-primary">See Profile</a>
+              <a href="#" class="btn btn-primary">Click to see the map</a>
             </div>
           </div>`;
 
